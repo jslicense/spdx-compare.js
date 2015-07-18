@@ -1,0 +1,17 @@
+{
+  "name": "spdx-compare",
+  "description": "compare SPDX license expressions",
+  "version": "0.0.0",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com)",
+  "dependencies": {
+    "spdx": "0.4.x"
+  },
+  "devDependencies": {
+    "jsmd": "^0.3.0"
+  },
+  "license": "MIT",
+  "main": "spdx-compare.js",
+  "scripts": {
+    "test": "jsmd README.md"
+  }
+}
