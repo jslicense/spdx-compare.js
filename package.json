@@ -7,12 +7,13 @@
     "spdx": "0.4.x"
   },
   "devDependencies": {
+    "jsmd-tape": "^0.1.0",
     "tape": "^4.0.0"
   },
   "license": "MIT",
   "main": "spdx-compare.js",
   "repository": "kemitchell/spdx-compare.js",
   "scripts": {
-    "test": "tape test.js"
+    "test": "jsmd-tape README.md | node"
   }
 }

@@ -6,6 +6,10 @@ npm i --save spdx-compare
 
 In JavaScript:
 
+<!--js
+  var compare = require('./');
+-->
+
 ```js
 compare.gt('GPL-3.0', 'GPL-2.0'); // => true
 compare.lt('MPL-1.0', 'MPL-2.0'); // => true
