@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "author": "Kyle E. Mtichell <kyle@kemitchell.com> (https://kemitchell.com)",
   "dependencies": {
-    "spdx": "0.4.x"
+    "spdx": "0.5.x"
   },
   "devDependencies": {
     "jsmd-tape": "^0.1.0",
