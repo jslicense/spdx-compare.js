@@ -21,7 +21,6 @@
     "standards"
   ],
   "license": "MIT",
-  "main": "spdx-compare.js",
   "repository": "kemitchell/spdx-compare.js",
   "scripts": {
     "test": "jsmd-tape README.md | node"
