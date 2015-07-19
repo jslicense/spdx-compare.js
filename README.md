@@ -1,7 +1,7 @@
 Compare SPDX license expressions
 
 ```shellsession
-npm i --save spdx-compare
+npm install --save spdx-compare
 ```
 
 In JavaScript:
