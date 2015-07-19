@@ -10,6 +10,16 @@
     "jsmd-tape": "^0.1.0",
     "tape": "^4.0.0"
   },
+  "keywords": [
+    "SPDX",
+    "law",
+    "legal",
+    "license",
+    "metadata",
+    "package",
+    "package.json",
+    "standards"
+  ],
   "license": "MIT",
   "main": "spdx-compare.js",
   "repository": "kemitchell/spdx-compare.js",
