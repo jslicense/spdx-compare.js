@@ -1,4 +1,4 @@
-var parse = require('spdx').parse
+var parse = require('spdx-expression-parse')
 
 var ranges = require('spdx-ranges')
 
