@@ -1,6 +1,6 @@
 var parse = require('spdx').parse
 
-var ranges = require('./ranges.json')
+var ranges = require('spdx-ranges')
 
 var notALicenseIdentifier = ' is not a simple license identifier';
 
