@@ -1,7 +1,7 @@
 {
   "name": "spdx-compare",
   "description": "compare SPDX license expressions",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Kyle E. Mtichell <kyle@kemitchell.com> (https://kemitchell.com)",
   "dependencies": {
     "spdx": "0.4.x",
