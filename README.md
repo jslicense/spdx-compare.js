@@ -11,8 +11,7 @@ assert(!compare.gt('MIT', 'ISC'))
 assert(!compare.gt('OSL-1.0', 'OPL-1.0'))
 assert(compare.gt('AGPL-3.0', 'AGPL-1.0'))
 
-assert.throws(
-  function() {
-    compare.gt('(MIT OR ISC)', 'GPL-3.0') },
-  '"(MIT OR ISC)" is not a simple license identifier')
+assert.throws(function () {
+  compare.gt('(MIT OR ISC)', 'GPL-3.0')
+}, '"(MIT OR ISC)" is not a simple license identifier')
 ```
