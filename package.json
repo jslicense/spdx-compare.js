@@ -4,8 +4,9 @@
   "version": "0.1.2",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com)",
   "dependencies": {
+    "array-find-index": "^1.0.2",
     "spdx-expression-parse": "^3.0.0",
-    "spdx-ranges": "^1.0.0"
+    "spdx-ranges": "^2.0.0"
   },
   "devDependencies": {
     "defence-cli": "^2.0.1"

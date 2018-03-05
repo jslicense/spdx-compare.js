@@ -3,6 +3,9 @@ var assert = require('assert')
 var compare = require('spdx-compare')
 
 assert(compare.gt('GPL-3.0', 'GPL-2.0'))
+assert(compare.gt('GPL-3.0-only', 'GPL-2.0-only'))
+assert(compare.gt('GPL-2.0-or-later', 'GPL-2.0-only'))
+assert(compare.eq('GPL-3.0-or-later', 'GPL-3.0-only'))
 assert(compare.lt('MPL-1.0', 'MPL-2.0'))
 
 assert(compare.gt('LPPL-1.3a', 'LPPL-1.0'))
