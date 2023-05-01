@@ -1,4 +1,3 @@
-var arrayFindIndex = require('array-find-index')
 var parse = require('spdx-expression-parse')
 
 var ranges = require('spdx-ranges')
@@ -17,12 +16,12 @@ var rangeComparison = function (comparison) {
     }
     return ranges.some(function (range) {
       var firstLicense = firstAST.license
-      var indexOfFirst = arrayFindIndex(range, function (element) {
+      const indexOfFirst = range.findIndex((element) => {
         return (
           element === firstLicense ||
           (
             Array.isArray(element) &&
-            element.indexOf(firstLicense) !== -1
+            element.includes(firstLicense)
           )
         )
       })
@@ -30,15 +29,13 @@ var rangeComparison = function (comparison) {
         return false
       }
       var secondLicense = secondAST.license
-      var indexOfSecond = arrayFindIndex(range, function (element) {
-        return (
-          element === secondLicense ||
-          (
-            Array.isArray(element) &&
-            element.indexOf(secondLicense) !== -1
-          )
+      const indexOfSecond = range.findIndex((element) =>
+        element === secondLicense ||
+        (
+          Array.isArray(element) &&
+          element.includes(secondLicense)
         )
-      })
+      )
       if (indexOfSecond < 0) {
         return false
       }
